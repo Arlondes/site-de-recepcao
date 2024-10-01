@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-size: 56px;
+  color: #d3a119;
+}
+
+p {
+  color: black;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.animation {
+  animation: alerta 1.5s infinite;
+}
+
+.button {
+  background: #8f711fc7;
+  color: rgb(252, 251, 251);
+  border: 2px solid #222422;
+  border-radius: 9px;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(185, 146, 19, 0.5);
+  font-size: 19px;
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  line-height: 10px;
+  text-decoration: none;
+  transition: padding 50ms ease-in-out;
+  position: absolute;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+}
+
+@keyframes alerta {
+  0% {
+    transform: scale();
+  }
+
+  70% {
+    transform: scale();
+    box-shadow: 0 0 0 50px rgba(69, 152, 27, 0);
+  }
+
+  100% {
+    transform: scale();
+    box-shadow: 0 0 0 0 rgba(69, 152, 27, 0);
+  }
+}
+
+.logo-ellen {
+  width: 90%;
+  height: 50vh;
+  padding: 6px;
+}
+
+.caixa-dois {
+  width: 135%;
+  top: 0px;
+  right: 0px;
+  height: 5vw;
+  position: fixed;
+  z-index: -1;
+
+}
+
+body {
+  height: 100vh;
+}
+
+.caixa-mae {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  padding: 100px;
+}
+
+.caixa-um {
+  width: 40%;
+}
+
+.videozinho {
+  position: fixed;
+  top: 0px;
+  right: -623px;
+  z-index: -1;
+}
+
+video {
+  width: 100vw;
+  height: 52vw;
+  display: 10vw;
+
+}
+
+.link-whatsapp {
+  height: 70px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: -022vw;
+  margin-inline: 460px;
+  width: 30%;
+  height: 890px;
+}
+
+.header video {
+  height: 130px;
+  margin: 100px;
+  margin-right: 30px;
+}
+
+.header a {
+  font-size: 31px;
+  cursor: pointer;
+  color: rgb(85, 80, 80);
+}
+
+.header a:hover {
+  color: #d3a119;
+  font-size: 26px;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  color: #2520209c;
+  font-size: 21px;
+  transition: 0.5s ease-in-out;
+}
+
+.formulario-obrigatorio {
+  background-color: ;
+  display: flex;
+  gap: 20px;
+  flex-direction: column-reverse;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  padding: 20px;
+  border-radius: 5px;
+}
